@@ -1,0 +1,62 @@
+.search--page--search--image{
+   width:15px;
+   height:15px;
+   position: absolute;
+   top:32px;
+   left: 25px;
+   color:#9E9FA5;
+}
+.search--tab{
+   background-color:#D8D9DA;
+   width:80vw;
+   height:5vh;
+   border-radius : 15px;
+   margin-left:10px;
+   margin-top: 20px;
+}
+.search--page--text{
+   position: absolute;
+   left:50px;
+   top:30px;
+   font-size: 18px;
+   color:#61677A;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search--page--discover--image{
+   width:30px;
+   height:30px;
+   position: absolute;
+   left:320px;
+   top:25px;
+}
+.polarBear{
+  width:200px;
+  height:200px;
+  margin-top:20px;
+  margin-left:1px;
+}
+
+.search--line{
+    width:360px;
+    height:0;
+    border-top:1px solid #9BA4B5;
+    position:absolute;
+    left:0px;
+    top:760px;
+}
+
+.search--page--footer{
+    display:flex;
+    position:absolute;
+    top:780px;
+    left:20px;
+    width:30px;
+    height:30px;
+}
+
+.search--page--footer--search,
+.search--page--footer--more, 
+.search--page--footer--heart, 
+.search--page--footer--profile{
+     margin-left: 40px;
+}
