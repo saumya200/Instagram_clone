@@ -10,11 +10,7 @@ import flower from "../../Images/flower.png";
 import grid from "../../Images/grid.png";
 import bookmark from "../../Images/bookmark.png";
 import tag from "../../Images/instagram-tag-icon.webp";
-import home from "../../Images/home.png";
-import more from "../../Images/more.png";
-import heart from "../../Images/heart1.png";
-// import saumya from "../../Images/saumya.png";
-import search from "../../Images/search.png";
+
 import verified from "../../Images/verified1.png";
 
 function ProfilePage() {
@@ -83,13 +79,6 @@ function ProfilePage() {
         <img src={tag} className="tag--image" />
       </div>
 
-      <div className="profile--page--footer">
-        <img src={home} className="profile--footer--home" />
-        <img src={search} className="profile--footer--search" />
-        <img src={more} className="profile--footer--more" />
-        <img src={heart} className="profile--footer--heart" />
-        <img src={saumya} className="profile--footer--profile" />
-      </div>
       <div className="profile--page--footer--line"></div>
     </div>
   );

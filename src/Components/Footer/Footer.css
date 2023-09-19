@@ -1,0 +1,29 @@
+.footer{
+  display:flex;
+  position: absolute;
+  /* bottom:20px; */
+  top:720px;
+  left:20px;
+}
+.footer--home, .footer--search, .footer--more, .footer--heart, .footer--profile{
+    width:30px;
+    height:30px;
+}
+ .footer--search, .footer--more, .footer--heart, .footer--profile{
+    margin-left:40px;
+ }
+ /* .footer--line{
+    width:360px;
+    height:0;
+    border-top:1px solid #9BA4B5;
+    position:absolute;
+    left:0px;
+    top:760px;
+} */
+.footer--line{
+    width:360px;
+    height:0;
+    border-top: 1px solid #9BA4B5;
+    position: absolute;
+    top:700px;
+}

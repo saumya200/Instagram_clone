@@ -2,11 +2,6 @@
 import "./NotificationPage.css";
 import panda from "../../Images/panda.jpg";
 import women from "../../Images/women.jpg";
-import home from "../../Images/home.png";
-import more from "../../Images/more.png";
-import heart from "../../Images/heart1.png";
-import saumya from "../../Images/saumya.png";
-import search from "../../Images/search.png";
 
 function NotificationPage() {
   return (
@@ -39,14 +34,6 @@ function NotificationPage() {
             </button>
           </h3>
         </span>
-      </div>
-      <div className="footer--line"></div>
-      <div className="notifications--footer">
-        <img src={home} className="notifications--footer--home" />
-        <img src={search} className="notifications--footer--search" />
-        <img src={more} className="notifications--footer--more" />
-        <img src={heart} className="notifications--footer--heart" />
-        <img src={saumya} className="notifications--footer--profile" />
       </div>
     </div>
   );

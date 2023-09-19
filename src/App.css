@@ -9,6 +9,8 @@ body{
   padding:0;
   margin:0;
 }
-/* .app{
-  background-color: red;
-} */
+.app{
+  /* background-color: red; */
+  height:100vh;
+  width:100vw;
+}

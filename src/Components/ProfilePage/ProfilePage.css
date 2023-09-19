@@ -22,14 +22,6 @@
     left:0px;
     top:440px;
 }
-.profile--page--footer--line{
-     width:360px;
-    height:0;
-    border-top:1px solid #9BA4B5;
-    position:absolute;
-    left:0px;
-    top:760px;
-}
 .settings--image{
     width:25px;
     height:25px;
@@ -200,27 +192,6 @@
     width:30px;
     height:30px;
 } */
-.profile--footer--home, .profile--footer--search, .profile--footer--more, .profile--footer--heart, .profile--footer--profile{
-    width:30px;
-    height:30px;
-    position: absolute;
-    bottom:20px;
-}
-.profile--footer--home{
-    left:25px;
-}
-.profile--footer--search{
-    left:100px;
-}
-.profile--footer--more{
-    left:170px;
-}
-.profile--footer--heart{
-    right:95px;
-}
-.profile--footer--profile{
-    right:30px;
-}
 .blueTick--image{
     width:20px;
     height:20px;
