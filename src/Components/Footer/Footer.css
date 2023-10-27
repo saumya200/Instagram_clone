@@ -2,8 +2,9 @@
   display:flex;
   position: absolute;
   /* bottom:20px; */
-  top:720px;
+  top:730px;
   left:20px;
+  
 }
 .footer--home, .footer--search, .footer--more, .footer--heart, .footer--profile{
     width:30px;
@@ -25,5 +26,114 @@
     height:0;
     border-top: 1px solid #9BA4B5;
     position: absolute;
-    top:700px;
+    top:710px;
+}
+@media screen and (max-width:640px) {
+    .footer--line{
+        width:640px;
+        top:750px;
+    }
+        .footer--home{
+        position:absolute;
+        left:20px;
+        top:40px;
+        
+    }
+    .footer--search{
+        position:absolute;
+        left:110px;
+        top:40px;
+        
+    }
+        .footer--more{
+        position:absolute;
+        left:260px;
+        top:40px;
+        
+    }
+        .footer--heart{
+        position:absolute;
+        left:380px;
+                top:40px;
+
+        
+    }
+        .footer--profile{
+        position:absolute;
+        left:500px;
+                top:40px;
+
+        
+    }
+
+    
+}
+@media screen and (min-width:768px){
+    .footer{
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        top:0px;
+        background-color: whitesmoke;
+        width:12vw;
+        height:100vh;
+        left:0px;
+    }
+            .footer--heart, .footer--more, .footer--profile, .footer--search{
+                position: relative;
+                top:70px;
+                
+                
+            }
+            .footer--heart{
+                top:120px;
+            }
+            .footer--more{
+                top:170px;
+            }
+            .footer--profile{
+                top:220px;
+            }
+            .footer--home{
+                position: relative;
+                left:38px;
+                top:20px;
+            }
+            .footer--line{
+                display:none;
+            }
+
+}
+@media screen and (min-width:1280px){
+    .footer{
+        width:25vw;
+    }
+    .footer span{
+        position: absolute;
+        left:100px;
+        color:black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .text--1{
+        top:22px;
+    }
+    .text--2{
+        top:105px;
+    }
+    .text--3{
+        top:192px;
+    }
+    .text--4{
+        top:277px;
+    }
+    .text--5{
+        top:365px;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    .footer span{
+        display:none;
+    }
 }

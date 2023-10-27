@@ -6,7 +6,7 @@ import message from "../../Images/message.png";
 import saumya from "../../Images/saumya.png";
 import add from "../../Images/add.png";
 import dots from "../../Images/dots.png";
-import sam from "../../Images/sam.jpg";
+import temple from "../../Images/kalahasti.jpeg";
 import heart from "../../Images/heart1.png";
 import comment from "../../Images/comment.png";
 // import share from "../../Images/message.png";
@@ -16,6 +16,7 @@ import women from "../../Images/women.jpg";
 import redHeart from "../../Images/red-heart.png";
 // import close from "../../Images/close.png";
 import { AiOutlineClose } from "react-icons/ai";
+import arrow from "../../Images/down-arrow.png";
 
 // import App from "../../App";
 // import App from "../../App";
@@ -90,6 +91,7 @@ const ExplorerPage = () => {
       <div className="navbar">
         <img src={camera} className="navbar--camera" />
         <h1 className="navbar--text">Instagram</h1>
+        <img src={arrow} className="explorer--down--arrow" />
         <img src={message} className="navbar--message" />
       </div>
       <div className="navbar--line"></div>
@@ -110,7 +112,7 @@ const ExplorerPage = () => {
           <p className="posts--location">Hyderabad</p>
         </span>
         <img src={dots} className="posts--dots" />
-        <img src={sam} className="profile--post" />
+        <img src={temple} className="profile--post" />
         {clicked ? (
           <span onClick={handleClick}>
             <img src={redHeart} className="posts--red--heart" />

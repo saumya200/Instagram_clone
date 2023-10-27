@@ -296,3 +296,252 @@
 /* .comment--page--input--text:active #changeCommentButtonStyle{
     color:blue;
 } */
+
+@media screen and (min-width:640px){
+    .navbar--camera{
+        display:none;
+    }
+    .navbar--message{
+        position: absolute;
+        left:520px;
+    }
+    .navbar--text{
+        padding-left:20px;
+    }
+    .explorer--down--arrow{
+        height:20px;
+        width:20px;
+        position: absolute;
+        top:25px;
+        left:180px;
+    }
+    .navbar--line{
+        width:640px;
+    }
+    .header--line{
+        width:640px;
+    }
+    .profile--post{
+        width: 400px;
+        height:400px;
+        position: absolute;
+        left:120px;
+    }
+    .profile--posts--image{
+        margin-left:120px;
+    }
+    .posts--caption{
+        display: none;
+    }
+    .posts--comment{
+        /* display:none; */
+        position: absolute;
+        top:672px;
+        left:200px;
+    }
+    .comment--page--modal{
+        position: absolute;
+        left:170px;
+        top:250px;
+    }
+    .posts--count{
+        /* display:none; */
+        position: absolute;
+        left:460px;
+    }
+    .posts--dots{
+        margin-left:210px;
+    }
+    .posts--grey--dots{
+        /* display:none; */
+        position: absolute;
+        left:330px;
+        top:670px;
+    }
+    .posts--heart{
+        /* display:none; */
+        position: absolute;
+        top:670px;
+        left:140px;
+    }
+    .posts--liked{
+        
+        position: absolute;
+        left:180px;
+        top:715px;
+    
+        
+    }
+    .posts--red--heart{
+        /* display:none; */
+        position: absolute;
+        top:670px;
+        left:140px;
+    }
+    .posts--save{
+        /* display:none; */
+        position: absolute;
+        left:250px;
+        top:672px;
+    }
+    .posts--women--image{
+        /* display:none; */
+        position: absolute;
+        left:140px;
+        top:710px;
+    }
+}
+@media screen and (min-width:768px){
+        .navbar--message{
+        /* position: absolute; */
+        left:620px;
+    }
+        .navbar--line{
+        width:768px;
+    }
+    .header--line{
+        /* width:768px; */
+        display:none;
+    }
+        .profile--posts--image{
+        /* left:180px; */
+        position: absolute;
+        top:150px;
+        left:80px;
+    }
+    .posts--username{
+        position: absolute;
+        left:270px;
+        top:175px;
+    }
+    .posts--location{
+        position: absolute;
+        left:270px;
+        top:195px;
+    }
+    .posts--dots{
+        position: absolute;
+        left:320px;
+        top:150px;
+    }
+
+       .profile--post{
+        width: 400px;
+        position: absolute;
+        left:180px;
+    }
+    .navbar--message{
+        display:none;
+    }
+        .navbar--text{
+        display:none;
+    }
+    .explorer--down--arrow{
+        display:none;
+    }
+    .navbar--line{
+        display:none;
+    }
+    .header--image{
+        /* display:none; */
+        position: absolute;
+        left:150px;
+        width:70px;
+        height:70px;
+    }
+    .more--image{
+        /* display:none; */
+        position: absolute;
+        left:212px;
+        top:80px;
+    }
+    .posts--count{
+        left:520px;
+    }
+    .posts--heart{
+        left:200px;
+    }
+    .posts--red--heart{
+        left:200px;
+
+    }
+    .posts--comment{
+        left:250px;
+    }
+        .comment--page--modal{
+        left:225px;
+    }
+    .posts--save{
+        left: 320px;
+    }
+    .posts--women--image{
+        left: 200px;
+    }
+    .posts--liked{
+        left:240px;
+    }
+    
+
+
+}
+
+@media screen and (min-width:1024px){
+        .header--image{
+        left:250px;
+    }
+    .more--image{
+        left:312px;
+    }
+        .profile--post{
+        left:400px;
+    }
+    .profile--posts--image{
+        left:280px;
+    }
+    .posts--username{
+        left:470px;
+    }
+    .posts--location{
+        left:470px;
+    }
+        .posts--dots{
+        left:550px;
+    }
+    .posts--count{
+        left:740px;
+    }
+        .posts--heart{
+        left:420px;
+    }
+    .posts--red--heart{
+        left:420px;
+
+    }
+        .posts--comment{
+        left:470px;
+    }
+        .comment--page--modal{
+        left:450px;
+    }
+        .posts--grey--dots{
+        left:600px;
+    }
+        .posts--save{
+        left: 530px;
+    }
+    .posts--women--image{
+        left: 420px;
+    }
+    .posts--liked{
+        left:460px;
+    }
+    
+}
+@media screen and (min-width:1280px){
+            .header--image{
+        left:320px;
+    }
+        .more--image{
+        left:382px;
+    }
+}
