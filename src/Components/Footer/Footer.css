@@ -99,6 +99,10 @@
                 left:38px;
                 top:20px;
             }
+            .footer--home:hover{
+                background-color: #9BA4B5;
+                opacity:0.5;
+            }
             .footer--line{
                 display:none;
             }
