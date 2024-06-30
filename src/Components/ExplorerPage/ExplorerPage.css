@@ -1,221 +1,225 @@
 /* Navbar */
 
-  /* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap'); */
-  
-  @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap'); */
 
-  .navbar{
-    display:flex;
-  }
-  h1{
-    font-family: 'Sofia', cursive;
-    padding:20px 0 0 50px;
-  }
-  .navbar--text{
-    padding: 10px 0 0 45px;
-  }
-  .navbar--camera{
-    width:35px;
-    height:35px;
-    padding: 10px 0 0 20px;
-    cursor:pointer;
-  }
-  .navbar--message{
-    width:25px;
-    height:25px;
-    padding:20px 0 0 50px;
-    cursor:pointer;
-  }
-  .navbar--line{ 
-    width:360px;
-    height:0px;
-    border-top:1px solid #9BA4B5;
-    position: absolute;
-    top:70px;
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 
+.navbar {
+  display: flex;
+}
+h1 {
+  font-family: "Sofia", cursive;
+  padding: 20px 0 0 50px;
+}
+.navbar--text {
+  padding: 10px 0 0 45px;
+}
+.navbar--camera {
+  width: 35px;
+  height: 35px;
+  padding: 10px 0 0 20px;
+  cursor: pointer;
+}
+.navbar--message {
+  width: 25px;
+  height: 25px;
+  padding: 20px 0 0 50px;
+  cursor: pointer;
+}
+.navbar--line {
+  width: 360px;
+  height: 0px;
+  border-top: 1px solid #9ba4b5;
+  position: absolute;
+  top: 70px;
 }
 
 /* Header */
-.header--image{
-    width:80px;
-    height:80px;
-    margin: 30px 0 0 20px;
+.header--image {
+  width: 80px;
+  height: 80px;
+  margin: 30px 0 0 20px;
 }
-.more--image{
-    width:22px;
-    height:22px;
-    border-radius: 50px;
-    position:absolute;
-    left:70px;
-    top:150px;
+.more--image {
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  position: absolute;
+  left: 70px;
+  top: 150px;
 }
-.header--line{
-    width:360px;
-    height:0;
-    border-top:1px solid #DDE6ED;
-    position: absolute;
-    top:190px;
+.header--line {
+  width: 360px;
+  height: 0;
+  border-top: 1px solid #dde6ed;
+  position: absolute;
+  top: 190px;
 }
 
 /* Posts */
-.posts{
-    display:flex;
-    align-items:center;
+.posts {
+  display: flex;
+  align-items: center;
 }
-.profile--posts--image{
-    width:50px;
-    height:50px;
-    margin-top:18px;
-    margin-left:20px;
+.profile--posts--image {
+  width: 50px;
+  height: 50px;
+  margin-top: 18px;
+  margin-left: 20px;
 }
-.profile--name{
- margin-top:20px;
- margin-left: 20px;
-  font-family:Arial, Helvetica, sans-serif;
+.profile--name {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.posts--dots{
-    width:18px;
-    height:18px;
-    margin-top:28px;
-    margin-left:130px;
+.posts--dots {
+  width: 18px;
+  height: 18px;
+  margin-top: 28px;
+  margin-left: 130px;
 }
-.profile--post{
-    height:30vh;
-    width:100vw;
-    position: absolute;
-    left:0px;
-    top: 250px;
+.profile--post {
+  height: 30vh;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: 250px;
 }
-.posts--heart, .posts--comment, .posts--share, .posts--save{
-    /* width:30px;
+.posts--heart,
+.posts--comment,
+.posts--share,
+.posts--save {
+  /* width:30px;
     height:30px; */
-    position:relative;
-    top:330px;
-    right:300px;
+  position: relative;
+  top: 330px;
+  right: 300px;
 }
-.posts--heart, .posts--red--heart, .posts--share, .posts--comment{
-    display: inline-block;
-    /* margin-left:5px;
+.posts--heart,
+.posts--red--heart,
+.posts--share,
+.posts--comment {
+  display: inline-block;
+  /* margin-left:5px;
     margin-right:5px; */
 }
-.posts--heart{
-    /* margin-left:5px; */
-    /* position: relative; */
-    width:28px;
-    height:28px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top:300px;
+.posts--heart {
+  /* margin-left:5px; */
+  /* position: relative; */
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 300px;
 }
-.posts--red--heart{
-       width:38px;
-    height:38px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    position: relative;
-    right:300px;
-    top:300px;
+.posts--red--heart {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 300px;
+  top: 300px;
 }
 
-.posts--comment{
-    /* margin-left: 20px;
+.posts--comment {
+  /* margin-left: 20px;
     margin-top:2px; */
-    width:25px;
-    height:25px;  
-    position: relative; 
-    right:280px;
-    top:300px;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  right: 280px;
+  top: 300px;
+  cursor: pointer;
 }
-.posts--share{
-    /* margin-left:20px; */
-    /* margin-top:5px; */
-    height:25px;
-    width:25px;
-    position:relative;
-    right:280px;
-    
+.posts--share {
+  /* margin-left:20px; */
+  /* margin-top:5px; */
+  height: 25px;
+  width: 25px;
+  position: relative;
+  right: 280px;
 }
 /* .comment--page--modal, .posts--share{
     display:none;
 } */
 
-.posts--grey--dots{
-    width:25px;
-    height:25px;
-    position: absolute;
-    top:500px;
-    left:180px;
+.posts--grey--dots {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 500px;
+  left: 180px;
 }
-.posts--save{
-    margin-left:220px;
-    /* margin-top:2px; */
-    height:23px;
-    width:23px;
-    margin-bottom:60px;
+.posts--save {
+  margin-left: 220px;
+  /* margin-top:2px; */
+  height: 23px;
+  width: 23px;
+  margin-bottom: 60px;
 }
-.posts--count{
-    border:none;
-    background-color: rgba(128, 128, 128, 0.5); 
-    border-radius: 30px;
-    color:white;
-    width:30px;
-    height:20px;
-    padding-top:5px;
-    padding-left:10px;
-    position:absolute;
-    top:260px;
-    left:300px;
+.posts--count {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 30px;
+  color: white;
+  width: 30px;
+  height: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  position: absolute;
+  top: 260px;
+  left: 300px;
 }
-.posts--women--image{
-    width:25px;
-    height:25px;
-    position: absolute;
-    left:20px;
-    top:580px;
-    border-radius: 50px;
+.posts--women--image {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 20px;
+  top: 580px;
+  border-radius: 50px;
 }
-.posts--liked{ 
-    position: absolute;
-    left:50px;
-    top:585px;
-    display:flex;
-    word-spacing: 5px;
-     font-family:Arial, Helvetica, sans-serif;
-
+.posts--liked {
+  position: absolute;
+  left: 50px;
+  top: 585px;
+  display: flex;
+  word-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.posts--liked b{
-    /* font-weight: bold; */
-    margin-left: 5px;
+.posts--liked b {
+  /* font-weight: bold; */
+  margin-left: 5px;
 }
-.posts--caption{
-    display:flex;
-    position:absolute;
-    left:20px;
-    top:620px;
-    word-spacing: 5px;
-    font-family:Arial, Helvetica, sans-serif;
+.posts--caption {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 620px;
+  word-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.posts--caption h4{
-    font-weight: bold;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-     font-family:Arial, Helvetica, sans-serif;
+.posts--caption h4 {
+  font-weight: bold;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
-.posts--caption span{
-    margin-left:5px;
+.posts--caption span {
+  margin-left: 5px;
 }
-.comment--page--modal{
-    background-color: whitesmoke;
-    color:black;
-    position: absolute;
-    top:200px;
-    width:300px;
-    height:50vh;
-    left:12px;
-    border-radius: 15px;
-    z-index: 10;
-    border:2px solid #ededed;
+.comment--page--modal {
+  background-color: whitesmoke;
+  color: black;
+  position: absolute;
+  top: 200px;
+  width: 300px;
+  height: 50vh;
+  left: 12px;
+  border-radius: 15px;
+  z-index: 10;
+  border: 2px solid #ededed;
 }
 /* .comment--page--modal:: .posts--caption{
     display:none;
@@ -228,17 +232,17 @@
     position: absolute;
     top:150px;
     /* right:40px; */
-    /* left:10px; */
-/* } */ 
-.posts--comment--page--text2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color:gray;
-    position: absolute;
-    top:105px;
-    left:205px;
-    cursor: pointer;
+/* left:10px; */
+/* } */
+.posts--comment--page--text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: gray;
+  position: absolute;
+  top: 105px;
+  left: 205px;
+  cursor: pointer;
 }
 /* .comment--page--input--text.focused .posts--comment--page--text2{
     color:blue;
@@ -258,37 +262,37 @@
 /* .comment--page--modal:active, .posts--share, .posts--save, .posts--grey--dots, .posts--caption, .posts--women--image, .posts--liked, .posts--count{
     display: none;
 } */
-.posts--comment--page--close--icon{
-    position: absolute;
-    left:250px;
-    top:20px;
-    width:30px;
-    height:30px;
-    cursor:pointer;
+.posts--comment--page--close--icon {
+  position: absolute;
+  left: 250px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
-.posts--comment--page--title{
-    font-family:'Poppins',sans-serif ;
-    
-    /* text-align: center; */
-    position: absolute;
-    top:30px;
-    left:80px;
-    font-size: 25px;
+.posts--comment--page--title {
+  font-family: "Poppins", sans-serif;
+
+  /* text-align: center; */
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  font-size: 25px;
 }
-.comment--page--input--text{
-    position:absolute;
-    top:100px;
-    left:30px;
-    border: none;
-    border-bottom: 1px solid black;
-    outline:none;
-    background-color: whitesmoke;
-    width:180px;
-    height:25px;
-    font-size: 15px;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
+.comment--page--input--text {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: whitesmoke;
+  width: 180px;
+  height: 25px;
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* .comment--page--input--text:hover{
     border-top:none;
@@ -296,252 +300,569 @@
 /* .comment--page--input--text:active #changeCommentButtonStyle{
     color:blue;
 } */
-
-@media screen and (min-width:640px){
-    .navbar--camera{
-        display:none;
-    }
-    .navbar--message{
-        position: absolute;
-        left:520px;
-    }
-    .navbar--text{
-        padding-left:20px;
-    }
-    .explorer--down--arrow{
-        height:20px;
-        width:20px;
-        position: absolute;
-        top:25px;
-        left:180px;
-    }
-    .navbar--line{
-        width:640px;
-    }
-    .header--line{
-        width:640px;
-    }
-    .profile--post{
-        width: 400px;
-        height:400px;
-        position: absolute;
-        left:120px;
-    }
-    .profile--posts--image{
-        margin-left:120px;
-    }
-    .posts--caption{
-        display: none;
-    }
-    .posts--comment{
-        /* display:none; */
-        position: absolute;
-        top:672px;
-        left:200px;
-    }
-    .comment--page--modal{
-        position: absolute;
-        left:170px;
-        top:250px;
-    }
-    .posts--count{
-        /* display:none; */
-        position: absolute;
-        left:460px;
-    }
-    .posts--dots{
-        margin-left:210px;
-    }
-    .posts--grey--dots{
-        /* display:none; */
-        position: absolute;
-        left:330px;
-        top:670px;
-    }
-    .posts--heart{
-        /* display:none; */
-        position: absolute;
-        top:670px;
-        left:140px;
-    }
-    .posts--liked{
-        
-        position: absolute;
-        left:180px;
-        top:715px;
-    
-        
-    }
-    .posts--red--heart{
-        /* display:none; */
-        position: absolute;
-        top:670px;
-        left:140px;
-    }
-    .posts--save{
-        /* display:none; */
-        position: absolute;
-        left:250px;
-        top:672px;
-    }
-    .posts--women--image{
-        /* display:none; */
-        position: absolute;
-        left:140px;
-        top:710px;
-    }
-}
-@media screen and (min-width:768px){
-        .navbar--message{
-        /* position: absolute; */
-        left:620px;
-    }
-        .navbar--line{
-        width:768px;
-    }
-    .header--line{
-        /* width:768px; */
-        display:none;
-    }
-        .profile--posts--image{
-        /* left:180px; */
-        position: absolute;
-        top:150px;
-        left:80px;
-    }
-    .posts--username{
-        position: absolute;
-        left:270px;
-        top:175px;
-    }
-    .posts--location{
-        position: absolute;
-        left:270px;
-        top:195px;
-    }
-    .posts--dots{
-        position: absolute;
-        left:320px;
-        top:150px;
-    }
-
-       .profile--post{
-        width: 400px;
-        position: absolute;
-        left:180px;
-    }
-    .navbar--message{
-        display:none;
-    }
-        .navbar--text{
-        display:none;
-    }
-    .explorer--down--arrow{
-        display:none;
-    }
-    .navbar--line{
-        display:none;
-    }
-    .header--image{
-        /* display:none; */
-        position: absolute;
-        left:150px;
-        width:70px;
-        height:70px;
-    }
-    .more--image{
-        /* display:none; */
-        position: absolute;
-        left:212px;
-        top:80px;
-    }
-    .posts--count{
-        left:520px;
-    }
-    .posts--heart{
-        left:200px;
-    }
-    .posts--red--heart{
-        left:200px;
-
-    }
-    .posts--comment{
-        left:250px;
-    }
-        .comment--page--modal{
-        left:225px;
-    }
-    .posts--save{
-        left: 320px;
-    }
-    .posts--women--image{
-        left: 200px;
-    }
-    .posts--liked{
-        left:240px;
-    }
-    
-
-
+.rightsidebar {
+  display: flex;
 }
 
-@media screen and (min-width:1024px){
-        .header--image{
-        left:250px;
-    }
-    .more--image{
-        left:312px;
-    }
-        .profile--post{
-        left:400px;
-    }
-    .profile--posts--image{
-        left:280px;
-    }
-    .posts--username{
-        left:470px;
-    }
-    .posts--location{
-        left:470px;
-    }
-        .posts--dots{
-        left:550px;
-    }
-    .posts--count{
-        left:740px;
-    }
-        .posts--heart{
-        left:420px;
-    }
-    .posts--red--heart{
-        left:420px;
-
-    }
-        .posts--comment{
-        left:470px;
-    }
-        .comment--page--modal{
-        left:450px;
-    }
-        .posts--grey--dots{
-        left:600px;
-    }
-        .posts--save{
-        left: 530px;
-    }
-    .posts--women--image{
-        left: 420px;
-    }
-    .posts--liked{
-        left:460px;
-    }
-    
+@media screen and (min-width: 640px) {
+  .navbar--camera {
+    display: none;
+  }
+  .navbar--message {
+    position: absolute;
+    left: 520px;
+  }
+  .navbar--text {
+    padding-left: 20px;
+  }
+  .explorer--down--arrow {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 25px;
+    left: 180px;
+  }
+  .navbar--line {
+    width: 640px;
+  }
+  .header--line {
+    width: 640px;
+  }
+  .profile--post {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 120px;
+  }
+  .profile--posts--image {
+    margin-left: 120px;
+  }
+  .posts--caption {
+    display: none;
+  }
+  .posts--comment {
+    /* display:none; */
+    position: absolute;
+    top: 672px;
+    left: 200px;
+  }
+  .comment--page--modal {
+    position: absolute;
+    left: 170px;
+    top: 250px;
+  }
+  .posts--count {
+    /* display:none; */
+    position: absolute;
+    left: 460px;
+  }
+  .posts--dots {
+    margin-left: 210px;
+  }
+  .posts--grey--dots {
+    /* display:none; */
+    position: absolute;
+    left: 330px;
+    top: 670px;
+  }
+  .posts--heart {
+    /* display:none; */
+    position: absolute;
+    top: 670px;
+    left: 140px;
+  }
+  .posts--liked {
+    position: absolute;
+    left: 180px;
+    top: 715px;
+  }
+  .posts--red--heart {
+    /* display:none; */
+    position: absolute;
+    top: 670px;
+    left: 140px;
+  }
+  .posts--save {
+    /* display:none; */
+    position: absolute;
+    left: 250px;
+    top: 672px;
+  }
+  .posts--women--image {
+    /* display:none; */
+    position: absolute;
+    left: 140px;
+    top: 710px;
+  }
+  .rightsidebar {
+    display: none;
+  }
 }
-@media screen and (min-width:1280px){
-            .header--image{
-        left:320px;
-    }
-        .more--image{
-        left:382px;
-    }
+@media screen and (min-width: 768px) {
+  .navbar--message {
+    /* position: absolute; */
+    left: 620px;
+  }
+  .navbar--line {
+    width: 768px;
+  }
+  .header--line {
+    /* width:768px; */
+    display: none;
+  }
+  .profile--posts--image {
+    /* left:180px; */
+    position: absolute;
+    top: 150px;
+    left: 80px;
+  }
+  .posts--username {
+    position: absolute;
+    left: 270px;
+    top: 175px;
+  }
+  .posts--location {
+    position: absolute;
+    left: 270px;
+    top: 195px;
+  }
+  .posts--dots {
+    position: absolute;
+    left: 320px;
+    top: 150px;
+  }
+
+  .profile--post {
+    width: 400px;
+    position: absolute;
+    left: 180px;
+  }
+  .navbar--message {
+    display: none;
+  }
+  .navbar--text {
+    display: none;
+  }
+  .explorer--down--arrow {
+    display: none;
+  }
+  .navbar--line {
+    display: none;
+  }
+  .header--image {
+    /* display:none; */
+    position: absolute;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+  }
+  .more--image {
+    /* display:none; */
+    position: absolute;
+    left: 212px;
+    top: 80px;
+  }
+  .posts--count {
+    left: 520px;
+  }
+  .posts--heart {
+    left: 200px;
+  }
+  .posts--red--heart {
+    left: 200px;
+  }
+  .posts--comment {
+    left: 250px;
+  }
+  .comment--page--modal {
+    left: 225px;
+  }
+  .posts--save {
+    left: 320px;
+  }
+  .posts--women--image {
+    left: 200px;
+  }
+  .posts--liked {
+    left: 240px;
+  }
+  .rightsidebar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header--image {
+    left: 250px;
+  }
+  .more--image {
+    left: 312px;
+  }
+  .profile--post {
+    left: 400px;
+  }
+  .profile--posts--image {
+    left: 280px;
+  }
+  .posts--username {
+    left: 470px;
+  }
+  .posts--location {
+    left: 470px;
+  }
+  .posts--dots {
+    left: 550px;
+  }
+  .posts--count {
+    left: 740px;
+  }
+  .posts--heart {
+    left: 420px;
+  }
+  .posts--red--heart {
+    left: 420px;
+  }
+  .posts--comment {
+    left: 470px;
+  }
+  .comment--page--modal {
+    left: 450px;
+  }
+  .posts--grey--dots {
+    left: 600px;
+  }
+  .posts--save {
+    left: 530px;
+  }
+  .posts--women--image {
+    left: 420px;
+  }
+  .posts--liked {
+    left: 460px;
+  }
+  .rightsidebar {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header--image {
+    left: 320px;
+  }
+  .more--image {
+    left: 382px;
+  }
+  .rightsidebar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    background-color: whitesmoke;
+    width: 25vw;
+    height: 100vh;
+    right: 0px;
+  }
+  .right--sidebar--header--profile--image {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+  .right--sidebar--header--username {
+    position: absolute;
+    left: 90px;
+    top: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 17px;
+  }
+  .right--sidebar--header--name {
+    position: absolute;
+    left: 93px;
+    top: 60px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 17px;
+  }
+  .right--sidebar--blue--tick {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+  }
+  .right--sidebar--header--name--image {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 215px;
+    top: 60px;
+  }
+  .right--sidebar--header--switch {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    color: #0096ff;
+  }
+  .right--sidebar--suggested--for--you--text {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 17px;
+    color: grey;
+  }
+  .right--sidebar--see--all-text {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 17px;
+    color: black;
+  }
+  .right--sidebar--people--profile--one {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+  }
+  .right--sidebar--people--profile--two {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+  }
+  .right--sidebar--people--profile--three {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+  }
+  .right--sidebar--people--profile--four {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+  }
+  .right--sidebar--people--profile--five {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 480px;
+    left: 20px;
+  }
+  .right--sidebar--other--people--profiles h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 17px;
+  }
+  .right--sidebar--other--people--profiles p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 17px;
+  }
+  .right--sidebar--other--people--profiles h4 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    color: #0096ff;
+  }
+
+  .right--sidebar--people--profile--one--details h3 {
+    position: absolute;
+    top: 170px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--one--details p {
+    position: absolute;
+    top: 190px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--one--details h4 {
+    position: absolute;
+    top: 180px;
+    right: 20px;
+  }
+  .right--sidebar--people--profile--two--details h3 {
+    position: absolute;
+    top: 250px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--two--details p {
+    position: absolute;
+    top: 270px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--two--details h4 {
+    position: absolute;
+    top: 260px;
+    right: 20px;
+  }
+  .right--sidebar--people--profile--three--details h3 {
+    position: absolute;
+    top: 330px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--three--details p {
+    position: absolute;
+    top: 350px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--three--details h4 {
+    position: absolute;
+    top: 340px;
+    right: 20px;
+  }
+  .right--sidebar--people--profile--four--details h3 {
+    position: absolute;
+    top: 410px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--four--details p {
+    position: absolute;
+    top: 430px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--four--details h4 {
+    position: absolute;
+    top: 420px;
+    right: 20px;
+  }
+  .right--sidebar--people--profile--five--details h3 {
+    position: absolute;
+    top: 490px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--five--details p {
+    position: absolute;
+    top: 510px;
+    left: 90px;
+  }
+  .right--sidebar--people--profile--five--details h4 {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+  }
+  .right--sidebar--footer--text1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+    top: 600px;
+    left: 15px;
+    color: gray;
+  }
+  .right--sidebar--footer--text2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    position: absolute;
+    top: 660px;
+    left: 40px;
+    color: gray;
+  }
+  .right--sidebar--footer--image {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 658px;
+    left: 18px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .header--image {
+    left: 400px;
+  }
+  .more--image {
+    left: 465px;
+  }
+  .profile--posts--image {
+    left: 450px;
+  }
+  .profile--post {
+    left: 570px;
+  }
+  .posts--username {
+    left: 630px;
+  }
+  .posts--location {
+    left: 630px;
+  }
+  .posts--dots {
+    left: 720px;
+  }
+  .posts--count {
+    left: 900px;
+  }
+  .posts--heart {
+    left: 590px;
+  }
+  .posts--red--heart {
+    left: 590px;
+  }
+  .posts--comment {
+    left: 630px;
+  }
+  .posts--grey--dots {
+    left: 770px;
+  }
+  .posts--save {
+    left: 700px;
+  }
+  .posts--women--image {
+    left: 590px;
+  }
+  .posts--liked {
+    left: 620px;
+  }
+  .right--sidebar--blue--tick {
+    right: 140px;
+  }
+  .comment--page--modal {
+    left: 620px;
+  }
+}
+@media screen and (min-width: 1645px) {
+  .header--image {
+    left: 450px;
+  }
+  .more--image {
+    left: 510px;
+  }
+  .right--sidebar--blue--tick {
+    right: 160px;
+  }
+}
+@media screen and (min-width: 1705px) {
+  .right--sidebar--blue--tick {
+    right: 170px;
+  }
+}
+@media screen and (min-width: 1885px) {
+  .header--image {
+    left: 500px;
+  }
+  .more--image {
+    left: 565px;
+  }
+  .right--sidebar--blue--tick {
+    right: 235px;
+  }
 }

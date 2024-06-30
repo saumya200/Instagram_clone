@@ -17,6 +17,14 @@ import redHeart from "../../Images/red-heart.png";
 // import close from "../../Images/close.png";
 import { AiOutlineClose } from "react-icons/ai";
 import arrow from "../../Images/down-arrow.png";
+import ape from "../../Images/ape.png";
+import people1 from "../../Images/people1.jpg";
+import people2 from "../../Images/people2.jpg";
+import people3 from "../../Images/people3.jpg";
+import people4 from "../../Images/people4.jpg";
+import people5 from "../../Images/people5.jpg";
+import blue_tick from "../../Images/blueTick.png";
+import copyright from "../../Images/copyright.png";
 
 // import App from "../../App";
 // import App from "../../App";
@@ -95,6 +103,80 @@ const ExplorerPage = () => {
         <img src={message} className="navbar--message" />
       </div>
       <div className="navbar--line"></div>
+
+      {/*RightSideBar*/}
+      <div className="rightsidebar">
+        <div className="right--sidebar--header">
+          <img
+            src={saumya}
+            className="right--sidebar--header--profile--image"
+          />
+          <h3 className="right--sidebar--header--username">_.saumyareddy._</h3>
+          <p className="right--sidebar--header--name">Saumya Reddy</p>
+          <span>
+            <img src={ape} className="right--sidebar--header--name--image" />
+            <img src={blue_tick} className="right--sidebar--blue--tick" />
+          </span>
+          <h4 className="right--sidebar--header--switch">Switch</h4>
+        </div>
+        <div className="right--sidebar--not--header">
+          <h3 className="right--sidebar--suggested--for--you--text">
+            Suggested for you
+          </h3>
+          <h3 className="right--sidebar--see--all-text">See all</h3>
+        </div>
+        <div className="right--sidebar--other--people--profiles">
+          <img src={people1} className="right--sidebar--people--profile--one" />
+          <span className="right--sidebar--people--profile--one--details">
+            <h3>_.aionyhaust._</h3>
+            <p>Followed by _.sam._</p>
+            <h4>Follow</h4>
+          </span>
+          <img src={people2} className="right--sidebar--people--profile--two" />
+          <span className="right--sidebar--people--profile--two--details">
+            <h3>_.marah._</h3>
+            <p>Followed by _.sam._</p>
+            <h4>Follow</h4>
+          </span>
+          <img
+            src={people3}
+            className="right--sidebar--people--profile--three"
+          />
+          <span className="right--sidebar--people--profile--three--details">
+            <h3>_.matthew._</h3>
+            <p>Followed by _.sam._</p>
+            <h4>Follow</h4>
+          </span>
+          <img
+            src={people4}
+            className="right--sidebar--people--profile--four"
+          />
+          <span className="right--sidebar--people--profile--four--details">
+            <h3>_.callista._</h3>
+            <p>Followed by _.sam._</p>
+            <h4>Follow</h4>
+          </span>
+          <img
+            src={people5}
+            className="right--sidebar--people--profile--five"
+          />
+          <span className="right--sidebar--people--profile--five--details">
+            <h3>_.canice._</h3>
+            <p>Followed by _.sam._</p>
+            <h4>Follow</h4>
+          </span>
+        </div>
+        <div className="right--sidebar--footer">
+          <p className="right--sidebar--footer--text1">
+            About . Help . Press . API . Jobs . Privacy . Terms . Locations .
+            Language . Meta Verified
+          </p>
+          <p className="right--sidebar--footer--text2">
+            2023 INSTAGRAM FROM META
+          </p>
+          <img src={copyright} className="right--sidebar--footer--image" />
+        </div>
+      </div>
 
       {/* Header */}
       <div className="header">

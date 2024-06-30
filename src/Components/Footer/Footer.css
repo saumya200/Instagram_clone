@@ -31,37 +31,37 @@
 @media screen and (max-width:640px) {
     .footer--line{
         width:640px;
-        top:750px;
+        top:820px;
     }
         .footer--home{
         position:absolute;
         left:20px;
-        top:40px;
+        top:120px;
         
     }
     .footer--search{
         position:absolute;
         left:110px;
-        top:40px;
+        top:120px;
         
     }
         .footer--more{
         position:absolute;
         left:260px;
-        top:40px;
+        top:120px;
         
     }
         .footer--heart{
         position:absolute;
         left:380px;
-                top:40px;
+                top:120px;
 
         
     }
         .footer--profile{
         position:absolute;
         left:500px;
-                top:40px;
+                top:120px;
 
         
     }
@@ -98,6 +98,10 @@
                 position: relative;
                 left:38px;
                 top:20px;
+            }
+            .footer--home:hover{
+                background-color: #9BA4B5;
+                opacity:0.5;
             }
             .footer--line{
                 display:none;

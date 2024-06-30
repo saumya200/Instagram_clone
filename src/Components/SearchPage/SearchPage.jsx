@@ -1,13 +1,11 @@
-// import React from 'react'
 import "./SearchPage.css";
 import search from "../../Images/search.png";
 import discoverPeople from "../../Images/discoverPeople.png";
-//import panda from "../../Images/panda.jpg";
 import polarBear from "../../Images/polarBear.jpg";
 
 function SearchPage() {
   return (
-    <>
+    <div>
       <div className="search--page--header">
         <div className="search--tab">
           <img src={search} className="search--page--search--image" />
@@ -20,11 +18,10 @@ function SearchPage() {
           </span>
         </div>
         <div className="search--page--images">
-          {/* <img src={panda} className="panda" /> */}
           <img src={polarBear} className="polarBear" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

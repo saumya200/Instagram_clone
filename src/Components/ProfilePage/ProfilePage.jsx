@@ -78,8 +78,7 @@ function ProfilePage() {
         <img src={bookmark} className="bookmark--image" />
         <img src={tag} className="tag--image" />
       </div>
-
-      <div className="profile--page--footer--line"></div>
+      {/* <div className="profile--page--middle--line3"></div> */}
     </div>
   );
 }

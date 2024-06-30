@@ -22,6 +22,14 @@
     left:0px;
     top:440px;
 }
+/* .profile--page--header--line3{
+     width:360px;
+    height:0;
+    border-top:1px solid #9BA4B5;
+    position:absolute;
+    left:0px;
+    top:200px;
+} */
 .settings--image{
     width:25px;
     height:25px;
@@ -45,8 +53,8 @@
 .person--image{
     width:30px;
     height:30px;
-    position: absolute;
-    right:20px;
+    /* position: absolute; */
+    margin-left: 500px;
     top:10px;
 }
 .profile--page--image{
@@ -223,4 +231,388 @@
     left:85px;
     color:#337CCF;
     font-weight: bold;
+}
+
+@media screen and (min-width: 640px){
+    .profile--page--header--line,
+    .profile--page--middle--line1,
+    .profile--page--middle--line2,
+    .profile--page--header--line3{
+        width:100%;
+    }
+    .profile--page--middle--line1{
+        margin-top: 50px;
+    }
+    .profile--page--middle--line2{
+        margin-top: 70px;
+    }
+    .profile--page--image{
+        margin-left: 50px;
+    }
+    .profile--username{
+        margin-left: 30px;
+    }
+    .blueTick--image{
+        right: 260px;
+    }
+    .name{
+        margin-left: 50px;
+        margin-top: 30px;
+        
+    }
+    .ape--image{
+        left: 200px;
+        margin-top: 30px;
+    }
+    .bio{
+        margin-left: 50px;
+    }
+    .sunflower--image{
+        margin-left: 50px;
+    }
+    .flower--icon{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .post--count, .followers--count, .following--count{
+        margin-top:60px;
+        font-size: 25px;
+    }
+    .post--title, .followers--title, .following--title{
+        margin-top: 70px;
+        font-size: 25px;
+        
+    }
+    .post--count{
+        margin-left: 5px;
+    }
+    .followers--count{
+        margin-left: 130px;
+    }
+    .following--count{
+        margin-left: 270px;
+    }
+    .followers--title{
+        margin-left: 130px;
+    }
+    .following--title{
+        margin-left: 260px;
+    }
+    .grid--image, .bookmark--image, .tag--image{
+        margin-top:70px;
+    }
+    .bookmark--image{
+        margin-left: 140px;
+    }
+    .grid--image{
+        margin-left: 8px;
+    }
+    .posts--title{
+        margin-top: 40px;
+        margin-left: 120px;
+    }
+    .posts----details--para1{
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .posts--details--para2{
+        margin-top: 80px;
+        margin-left: 130px;
+    }
+   
+    
+
+}
+@media screen and (min-width: 768px){
+    .profile--page--header--line,
+    .profile--page--middle--line1,
+    .profile--page--middle--line2,
+    .profile--page--header--line3{
+        width:100%;
+    }
+    .settings--image{
+        margin-left: 100px;
+    }
+    .person--image{
+        margin-left: 550px;
+    }
+      .navbar--username{
+        margin-left: 50px;
+    }
+       .downArrow--image{
+        margin-left: 60px;
+    }
+    .profile--page--middle--line1{
+        margin-top: 50px;
+    }
+    .profile--page--middle--line2{
+        margin-top: 70px;
+    }
+    .profile--page--image{
+        margin-left: 100px;
+    }
+    .profile--username{
+        margin-left: 100px;
+    }
+    .blueTick--image{
+        right: 320px;
+    }
+    .name{
+        /* margin-left: 100px;
+        margin-top: 30px; */
+        margin: 30px 0 0 100px;
+        
+    }
+    .ape--image{
+        left: 250px;
+        margin-top: 30px;
+    }
+    .bio{
+        margin-left: 100px;
+    }
+    .sunflower--image{
+        margin-left: 100px;
+    }
+    .flower--icon{
+        /* margin-top: 40px;
+        margin-left: 90px; */
+        margin: 40px 0 0 90px;
+    }
+    .post--count, .followers--count, .following--count{
+        margin-top:60px;
+        font-size: 25px;
+    }
+    .post--title, .followers--title, .following--title{
+        margin-top: 70px;
+        font-size: 25px;
+        
+    }
+    .post--count{
+        margin-left: 85px;
+    }
+    .post--title{
+        margin-left: 80px;
+    }
+    .followers--count{
+        margin-left: 220px;
+    }
+    .following--count{
+        margin-left: 350px;
+    }
+    .followers--title{
+        margin-left: 220px;
+    }
+    .following--title{
+        margin-left: 340px;
+    }
+    .grid--image, .bookmark--image, .tag--image{
+        margin-top:70px;
+    }
+    .bookmark--image{
+        margin-left: 230px;
+    }
+    .tag--image{
+        margin-right:50px 
+    }
+    .grid--image{
+        margin-left: 85px;
+    }
+    .posts--title{
+        /* margin-top: 40px;
+        margin-left: 220px; */
+        margin: 40px 0 0 220px;
+    }
+    .posts----details--para1{
+        /* margin-top: 70px;
+        margin-left: 70px; */
+        margin: 70px 0 0 150px;
+    }
+    .posts--details--para2{
+        /* margin-top: 80px;
+        margin-left: 130px; */
+        margin: 80px 0 0 220px;
+    }
+   
+    
+
+}
+@media screen and (min-width:1024px){
+    .navbar--username{
+        margin-left: 150px;
+    }
+    .person--image{
+        margin-left: 700px;
+    }
+    .settings--image{
+        margin-left: 150px;
+    }
+    .downArrow--image{
+        margin-left: 150px;
+    }
+    .profile--page--image{
+        margin-left: 150px;
+        width:100px;
+        height:100px;
+    }
+    .profile--username{
+        margin-left: 150px;
+    }
+    .blueTick--image{
+        margin-right: 200px;
+    }
+    .name{
+        margin-left: 150px;
+    }
+    .ape--image{
+        margin: 40px 0 0 50px;
+    }
+    .bio{
+        margin-left:150px;
+    }
+    .sunflower--image{
+        margin: 30px 0  0 150px;
+    }
+    .flower--icon{
+        margin: 90px 0 0 140px;
+    }
+     .profile--page--middle--line1{
+        margin-top: 100px;
+     }
+     .profile--page--middle--line2{
+        margin-top: 100px;
+     }
+     .post--count{
+        margin: 100px 0 0 130px;
+     }
+     .post--title{
+        margin: 100px 0 0 120px;
+     }
+     .followers--count{
+        margin: 100px 0 0 380px;
+     }
+     .followers--title{
+        margin: 100px 0 0 380px;
+        
+     }
+     .following--count{
+        margin: 100px 0 0 600px;
+     }
+     .following--title{
+        margin: 100px 0 0 600px;
+     }
+     .grid--image{
+        margin: 100px 0 0 130px;
+     }
+     .bookmark--image{
+        margin: 100px 0 0 390px;
+     }
+     .tag--image{
+        margin: 100px 50px 0 0;
+     }
+     .posts--title{
+        margin-left:380px;
+     }
+     .posts----details--para1{
+        margin-left: 320px;
+     }
+     .posts--details--para2{
+        margin-left:380px;
+     }
+    
+    
+    
+}
+
+@media screen and (min-width:1280px){
+    .navbar--username{
+        margin-left: 350px;
+    }
+    .settings--image{
+        margin-left: 350px;
+    }
+    .downArrow--image{
+        margin-left: 350px;
+    }
+    .person--image{
+        margin-left: 750px;
+    }
+    .profile--page--image{
+        margin-left: 350px;
+        width:100px;
+        height:100px;
+    }
+    .profile--username{
+        margin-left: 350px;
+    }
+    .blueTick--image{
+        margin-right: 260px;
+    }
+    .name{
+        margin: -40px 0 0 500px;
+    }
+    .ape--image{
+        margin: -30px 0 0 400px;
+    }
+    .bio{
+        margin-left:500px;
+    }
+    .edit--profile--button{
+        margin-left: 250px;
+        top:-65px;
+    }
+    .view--archive--button{
+        top:-65px;
+    }
+    .sunflower--image{
+        margin: 30px 0 0 350px;
+    }
+    .flower--icon{
+        margin: 20px 0 0 340px;
+    }
+     .profile--page--middle--line1{
+        margin-top: 50px;
+     }
+     .profile--page--middle--line2{
+        margin-top: 70px;
+     }
+     .post--count{
+        margin: 70px 0 0 350px;
+     }
+     .post--title{
+        margin: 75px 0 0 340px ;
+     }
+     .followers--count{
+        margin: 70px 0 0 600px;
+     }
+     .followers--title{
+        margin: 75px 0 0 600px;
+        
+     }
+     .following--count{
+        margin: 70px 0 0 840px;
+     }
+     .following--title{
+        margin: 75px 0 0 840px;
+     }
+     .grid--image{
+        margin: 80px 0 0 350px;
+     }
+     .bookmark--image{
+        margin: 80px 0 0 610px;
+     }
+     .tag--image{
+        margin: 80px 70px 0 0;
+     }
+     .posts--title{
+        margin-left:600px;
+     }
+     .posts----details--para1{
+        margin-left: 540px;
+     }
+     .posts--details--para2{
+        margin-left:600px;
+     }
+    
+    
+    
 }
